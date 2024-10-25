@@ -4,8 +4,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch.distributions import RelaxedBernoulli
 
-from PPO_maxEnt_LEEP.distributions import Bernoulli, Categorical, DiagGaussian
-from PPO_maxEnt_LEEP.utils import init
+from expgen.distributions import Bernoulli, Categorical, DiagGaussian
+from expgenport init
 
 
 class Policy(nn.Module):

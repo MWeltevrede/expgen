@@ -1,12 +1,12 @@
 
-from PPO_maxEnt_LEEP import utils
-from PPO_maxEnt_LEEP.arguments import get_args
-from PPO_maxEnt_LEEP.envs import make_ProcgenEnvs
-from PPO_maxEnt_LEEP.model import Policy,ImpalaModel
+from expgen import utils
+from expgen.arguments import get_args
+from expgen.envs import make_ProcgenEnvs
+from expgen.model import Policy,ImpalaModel
 from evaluation import evaluate_procgen_ensemble
-from PPO_maxEnt_LEEP.procgen_wrappers import *
-from PPO_maxEnt_LEEP.logger import Logger
-import PPO_maxEnt_LEEP.hyperparams as hps
+from expgen.procgen_wrappers import *
+from expgen.logger import Logger
+import expgen.hyperparams as hps
 import pandas as pd
 import torch
 

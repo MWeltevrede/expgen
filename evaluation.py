@@ -1,7 +1,7 @@
 import numpy as np
 import torch
 
-from PPO_maxEnt_LEEP.distributions import FixedCategorical
+from expgen.distributions import FixedCategorical
 from torch import nn
 
 

@@ -1,14 +1,14 @@
 import pathlib
 
-from PPO_maxEnt_LEEP import algo, utils
-from PPO_maxEnt_LEEP.arguments import get_args
-from PPO_maxEnt_LEEP.envs import make_ProcgenEnvs
-from PPO_maxEnt_LEEP.model import Policy, ImpalaModel
-from PPO_maxEnt_LEEP.storage import RolloutStorage
+from expgen import algo, utils
+from expgen.arguments import get_args
+from expgen.envs import make_ProcgenEnvs
+from expgen.model import Policy, ImpalaModel
+from expgen.storage import RolloutStorage
 from evaluation import evaluate_procgen_maxEnt_avepool_original_L2
-from PPO_maxEnt_LEEP.procgen_wrappers import *
-from PPO_maxEnt_LEEP.logger import maxEnt_Logger
-import PPO_maxEnt_LEEP.hyperparams as hps
+from expgen.procgen_wrappers import *
+from expgen.logger import maxEnt_Logger
+import expgen.hyperparams as hps
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
