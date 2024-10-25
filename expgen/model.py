@@ -5,7 +5,7 @@ import torch.nn.functional as F
 from torch.distributions import RelaxedBernoulli
 
 from expgen.distributions import Bernoulli, Categorical, DiagGaussian
-from expgenport init
+from expgen.utils import init
 
 
 class Policy(nn.Module):

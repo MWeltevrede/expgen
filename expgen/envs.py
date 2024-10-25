@@ -1,7 +1,7 @@
 
 from gym.spaces.box import Box
 from procgen import ProcgenEnv
-from PPO_maxEnt_LEEP.procgen_wrappers import *
+from expgen.procgen_wrappers import *
 
 try:
     import dmc2gym
